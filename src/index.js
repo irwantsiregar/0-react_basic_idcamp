@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import News from './views/News';
 import reportWebVitals from './reportWebVitals';
-import FilterableProductTable from './views/FilterableProductTable';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FilterableProductTable />
+    <News />
   </React.StrictMode>
 );
 
